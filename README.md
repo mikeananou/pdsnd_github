@@ -17,6 +17,7 @@ bikeshare.py
 
 ### Credits
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.count.html
+https://udacity.github.io/git-styleguide
 
 
 
