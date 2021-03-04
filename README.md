@@ -4,7 +4,7 @@
 This project and README file were created on 02/23/2021.
 
 ### Project Title
-Project 3: Post your Work on GitHub
+Project #3: Post your Work on GitHub
 
 ### Description
 Stimulate the workflow used in industry on the Bikeshare code completed in the previous project.
