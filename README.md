@@ -17,6 +17,7 @@ bikeshare.py
 
 ### Credits
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.count.html
+https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message
 https://udacity.github.io/git-styleguide
 
 
