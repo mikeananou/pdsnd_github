@@ -16,7 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington)
     while True:
         city = input("Enter a city to explore: Chicago, New York City, or Washington? ").lower()
         if city in ['chicago', 'new york city', 'washington']:
@@ -24,20 +24,20 @@ def get_filters():
         else:
             print("Please enter a valid city!")
     # get user input for month (all, january, february, ... , june)
-    while True:    
+    while True:
         month = input("Enter any of the first six months of the year, or enter 'all' for all six months: ").lower()
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
         else:
             print("Please enter a valid month!")
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    while True:    
+    while True:
         day = input("Enter a day for which you would like to explore the data, or enter 'all' for all days: ").lower()
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
         else:
             print("Please enter a valid day!")
-    
+
     print('-'*40)
     return city, month, day
 
@@ -161,9 +161,9 @@ def user_stats(df):
         print(gender_count)
     except KeyError:
         print("Gender data is not available")
-        
+
     # display earliest, most recent, and most common year of birth
-    try:       
+    try:
         # most recent year of birth
         most_recent_birth_year = sorted(df.groupby(['Birth Year'])['Birth Year'], reverse=True)[0][0]
         print("The most recent year of birth is", most_recent_birth_year, "\n")
@@ -171,7 +171,7 @@ def user_stats(df):
         earliest_birth_year = sorted(df.groupby(['Birth Year'])['Birth Year'])[0][0]
         print("The earliest year of birth is", earliest_birth_year, "\n")
         # most common year of birth
-        most_common_birth_year = df['Birth Year'].mode()[0]          
+        most_common_birth_year = df['Birth Year'].mode()[0]
         print("The most common year of birth is", most_common_birth_year, "\n")
     except:
         print("Birth Year data is not available")
@@ -201,7 +201,7 @@ def main():
                 count +=5
             else:
                 break
-        
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
