@@ -199,8 +199,10 @@ def main():
                 print(df.iloc[count:rows+5])
                 rows +=5
                 count +=5
-            else:
+            elif rawdata == 'no':
                 break
+            else:
+                print('\nInvalid entry. Please enter yes or no.')
         
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
