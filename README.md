@@ -1,17 +1,24 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+>**Note**: This repository is a fork of the **Udacity repository** and hosts my code and files used in the **Programming for Data Science with Python** Nanodegree program. The program covers fundamentals of Python programming, SQL, Command Line, and Git.
 
 ### Date created
-Include the date you created this project and README file.
+This project and README file were created on 02/23/2021.
 
 ### Project Title
-Replace the Project Title
+Project #3: Post your Work on GitHub
 
 ### Description
-Describe what your project is about and what it does
+Stimulate the workflow used in industry on the Bikeshare code completed in the previous project.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.count.html
+https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message
+https://udacity.github.io/git-styleguide
+
+
 
